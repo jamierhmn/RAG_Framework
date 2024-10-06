@@ -10,7 +10,7 @@ class EmbeddingGenerator:
         inputs = self.tokenizer(text, return_tensors='pt', truncation=True, padding=True)
         with torch.no_grad():
             embeddings = self.model(**inputs).last_hidden_state[:, 0, :].numpy()
-        return embeddings.squeeze()
+        return embeddings.squeeze().tolist()
 
 def generate_chunk_embeddings(chunks_with_metadata):
     embedder = EmbeddingGenerator()

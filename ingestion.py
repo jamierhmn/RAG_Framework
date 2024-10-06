@@ -21,6 +21,7 @@ def ingest_and_chunk_pdfs(pdf_folder, chunk_size=200, overlap=20):
                                     "page_number": page.page_number,
                                     "chunk_index": i,
                                     "document_type": "PDF",
+                                    "content": chunk  # Store the actual chunk content here
                                 }
                                 chunks_with_metadata.append((chunk, metadata))
             except Exception as e:
