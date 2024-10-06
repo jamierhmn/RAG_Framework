@@ -12,8 +12,7 @@ nltk.download('wordnet')
 
 # Initialize embedding generator and response generator
 embedder = EmbeddingGenerator()
-api_key = "sk-vXT-1TzTI6TLM93FRiScSSit8YuhNuLZX3y6NV5PRGT3BlbkFJiIlmoVoaDxuGWWprZJCmc4saEoOfn_JMw_j4qLnmAA"
-
+api_key = ""
 # Create the query-response generator
 generator = QueryResponseGenerator(api_key)
 
