@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # OpenAI API key setup
-openai.api_key = 'sk-nRihvOmpF72sK7WZmNQxiqTwMWpx8YuWIElBpSqBAST3BlbkFJeWPOonQdlVP8Nu_EH3NGxohV-Fs5TfilVY1ILJP2gA'
+#openai.api_key = 'sk-nRihvOmpF72sK7WZmNQxiqTwMWpx8YuWIElBpSqBAST3BlbkFJeWPOonQdlVP8Nu_EH3NGxohV-Fs5TfilVY1ILJP2gA'
 class QueryRequest(BaseModel):
     query: str
 

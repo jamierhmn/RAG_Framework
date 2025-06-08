@@ -60,7 +60,7 @@ Available collections:
 
 # ✅ Example Usage
 if __name__ == "__main__":
-    api_key = 'sk-nRihvOmpF72sK7WZmNQxiqTwMWpx8YuWIElBpSqBAST3BlbkFJeWPOonQdlVP8Nu_EH3NGxohV-Fs5TfilVY1ILJP2gA'  # Replace with your actual API key
+   # api_key = 'sk-nRihvOmpF72sK7WZmNQxiqTwMWpx8YuWIElBpSqBAST3BlbkFJeWPOonQdlVP8Nu_EH3NGxohV-Fs5TfilVY1ILJP2gA'  # Replace with your actual API key
     router = ReActAgentRouter(api_key)
 
     queries = [
