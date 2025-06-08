@@ -1,0 +1,308 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://54.193.225.66:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://54.193.225.66:8501
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://54.183.194.141:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://54.183.194.141:8501
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.57.248.188:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.57.248.188:8501
+
+2024-10-23 00:07:10.127 Session with id a44359d1-e432-48ae-9d09-2769205e011a is already connected! Connecting to a new session.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+2024-11-09 01:04:05.331 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 88, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 579, in code_to_exec
+    exec(code, module.__dict__)
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 175, in <module>
+    main()
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 154, in main
+    st.experimental_rerun()
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'streamlit' has no attribute 'experimental_rerun'. Did you mean: 'experimental_user'?
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+2024-11-09 01:06:23.125 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 88, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 579, in code_to_exec
+    exec(code, module.__dict__)
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 168, in <module>
+    main()
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 147, in main
+    st.session_state.query_input = ""  # Clear the input field
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state_proxy.py", line 135, in __setattr__
+    self[key] = value
+    ~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state_proxy.py", line 113, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/safe_session_state.py", line 99, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state.py", line 516, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.query_input` cannot be modified after the widget with key `query_input` is instantiated.
+2024-11-09 01:07:16.038 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 88, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 579, in code_to_exec
+    exec(code, module.__dict__)
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 168, in <module>
+    main()
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/UIcode.py", line 147, in main
+    st.session_state.query_input = ""  # Clear the input field
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state_proxy.py", line 135, in __setattr__
+    self[key] = value
+    ~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state_proxy.py", line 113, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/safe_session_state.py", line 99, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "/home/ubuntu/conversationAI/newapp/StreamlitApp/env/lib/python3.12/site-packages/streamlit/runtime/state/session_state.py", line 516, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.query_input` cannot be modified after the widget with key `query_input` is instantiated.
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.31.9.4:8501
+  External URL: http://13.52.38.75:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://172.31.9.4:8502
+  External URL: http://13.52.38.75:8502
+

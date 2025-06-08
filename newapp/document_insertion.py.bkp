@@ -1,0 +1,39 @@
+from embedding_util import generate_embeddings
+from weaviate_client import get_weaviate_client, setup_class_schema
+
+# Get the Weaviate client and set up the schema
+client = get_weaviate_client()
+setup_class_schema(client)
+
+# Example source documents to insert
+documents = [
+    "A group of vibrant parrots chatter loudly, sharing stories of their tropical adventures.",
+    "The mathematician found solace in numbers, deciphering the hidden patterns of the universe.",
+    "The robot, with its intricate circuitry and precise movements, assembles the devices swiftly.",
+    "The chef, with a sprinkle of spices and a dash of love, creates culinary masterpieces.",
+    "The ancient tree, with its gnarled branches and deep roots, whispers secrets of the past.",
+    "The detective, with keen observation and logical reasoning, unravels the intricate web of clues.",
+    "The sunset paints the sky with shades of orange, pink, and purple, reflecting on the calm sea.",
+    "In the dense forest, the howl of a lone wolf echoes, blending with the symphony of the night.",
+    "The dancer, with graceful moves and expressive gestures, tells a story without uttering a word.",
+    "In the quantum realm, particles flicker in and out of existence, dancing to the tunes of probability."
+]
+
+# Configure the batch size for insertion
+client.batch.configure(batch_size=len(documents))
+
+# Insert documents in a batch
+with client.batch as batch:
+    for i, doc in enumerate(documents):
+        print(f"Inserting document {i + 1}/{len(documents)}")
+
+        properties = {
+            "source_text": doc,
+        }
+        vector = generate_embeddings(doc)
+
+        # Add the document and its vector to Weaviate
+        batch.add_data_object(properties, "Document1", vector=vector)
+
+print("Document insertion completed!")
+
